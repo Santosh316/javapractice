@@ -3,12 +3,19 @@ package training.day1;
 public class Mobile {
     // states
 
-    // Brand
+    // brand
+    String brand;
     // type
     // color
-    // Memory
+    String color;
+    // memory
+    int memory;
+    // hard disk size
+    int hardDiskSize;
     // camera
     // storage
+    // price
+    float price;
 
     // Behavior
 
