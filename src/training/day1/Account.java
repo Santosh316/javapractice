@@ -1,23 +1,89 @@
 package training.day1;
 
+import java.util.logging.Logger;
+
 public class Account {
 
     // states
 
     // Account number
-    String accountNumber;
+    private String accountNumber;
     // account name
-    String accountName;
+    private String accountName;
     // account type
     String accountType;
     // amount
-    double amount;
+    private double amount;
     // interest rate
-    final float interestRate = 7.05f;
+    private final float Interest_Rate = 7.05f;
     // KYC data
-    String address;
-    String socialSecurityNumber;
-    String phoneNumber;
+    private String address;
+    private String socialSecurityNumber;
+    private String phoneNumber;
+
+
+
+    // getter and setters
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public String getAccountName() {
+        return accountName;
+    }
+
+    public void setAccountName(String accountName) {
+        this.accountName = accountName;
+    }
+
+    public String getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public float getInterest_Rate() {
+        return Interest_Rate;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getSocialSecurityNumber() {
+        return socialSecurityNumber;
+    }
+
+    public void setSocialSecurityNumber(String socialSecurityNumber) {
+        this.socialSecurityNumber = socialSecurityNumber;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 
 
     // behaviour
