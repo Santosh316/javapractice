@@ -1,11 +1,12 @@
 package training.day4;
 
+import java.security.PrivateKey;
 import java.util.Scanner;
 
 public class AssignmentFirst {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
 
+        Scanner in = new Scanner(System.in);
 
         System.out.println("Please enter your name : ");
         String name = in.nextLine();
@@ -28,11 +29,9 @@ public class AssignmentFirst {
         System.out.println("Enter marks in Computer: ");
         float computer = in.nextFloat();
 
+
         float percentage = (science+maths+english+computer)/4;
-
-        System.out.println("The percentage secured by "+ name+ " is " + percentage);
-
-
+        System.out.println("The percentage secured by "+ name + " is " + percentage);
 
     }
 }
